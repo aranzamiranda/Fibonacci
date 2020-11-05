@@ -17,7 +17,7 @@ public class FibonacciIterativo {
           long tFinal = 0;
           long tTotal = 0;
         double[] tiempos = new double[20];
-        int[] serie = new int[20];
+        int[] serie = new int[20]; 
         Fibonacci f1 = new Fibonacci("Serie Fibonacci", 40);
         
         for(int i = 0; i<20; i++){
